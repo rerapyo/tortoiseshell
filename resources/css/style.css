@@ -77,6 +77,10 @@ h1 {
   margin: 3rem auto;
  }
 
+ .services div {
+  align-items: center;
+ }
+
 .service {
   display: flex;
   flex-direction: column;
@@ -100,10 +104,10 @@ h1 {
 .infos {
   display: flex;
   justify-content: center;
-  align-items: center;
+  /* align-items: flex-start; */
 }
 
-.info {
+div.info {
   /* display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -125,6 +129,26 @@ h1 {
   font-size: 1rem;
   padding: 0.5rem 1.25rem;
 }
+
+
+/* .info {
+  width: 35%;
+  margin-right: 5%;
+  margin-bottom: 4rem;
+}
+
+.info p {
+  padding: 1rem 0;
+}
+
+.title {
+  max-width: 10rem;
+  padding: 0.5rem 1.25rem;
+  background-color: cadetblue;
+  font-weight: bold;
+  color: white;
+} */
+
 
 /* Footer Styles*/
 footer {
