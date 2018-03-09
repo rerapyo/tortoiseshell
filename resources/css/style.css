@@ -77,12 +77,12 @@ h1 {
     padding-top: 0;
   }
 
-  div.box {
+  .box {
     max-width: 100%;
   }
 
   .bar {
-    padding-top: 0;
+    margin-top: 0;
   }
 
   .banner {
@@ -100,7 +100,7 @@ h1 {
 .content {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
  }
 
  .services div {
