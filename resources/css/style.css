@@ -111,6 +111,7 @@ h1 {
 
   .mobile {
     display: block;
+    padding: 1rem;
   }
 
   .banner {
@@ -158,13 +159,19 @@ h1 {
 @media only screen and (max-width: 470px) {
   .content {
     flex-direction: column;
-    margin: 3.77rem auto;
+    margin-top: 3.77rem;
     align-items: center;
   }
 
   .service {
     font-size: 0.77rem;
-    margin: 1.54rem;
+    margin: 0;
+    padding-bottom: 1.54rem;
+    height: auto;
+  }
+
+  .truck {
+    padding-bottom: 0;
   }
 }
 
@@ -180,7 +187,7 @@ h1 {
 }
 
 .title {
-  max-width: 10rem;
+  width: 10rem;
   padding: 0.5rem 1.25rem;
   background-color: cadetblue;
   font-weight: bold;
@@ -190,10 +197,9 @@ h1 {
 @media only screen and (max-width: 470px) {
   .info {
     width: 100%;
-    margin-bottom: 4rem;
   }
 
-  .info .title {
+  .title {
     width: 100%;
     text-align: center;
   }
@@ -201,6 +207,7 @@ h1 {
   .info p {
     padding: 1rem;
     font-size: 0.77rem;
+    text-align: left;
   }
 }
 
