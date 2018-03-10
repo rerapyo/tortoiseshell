@@ -103,13 +103,24 @@ h1 {
   header {
     background-position: 20%;
   }
-  
+
   .menu {
     display: none;
   }
 
   .mobile {
     display: block;
+  }
+
+  .banner {
+    width: 100%;
+    padding: 1rem 0;
+    margin-top: 9rem;
+    text-align: center;
+  }
+
+  .banenr h1 {
+    font-size: 1rem;
   }
 }
 
