@@ -1,6 +1,8 @@
-/* 1024px 470px */
-
-/* General Styles */
+/************************************************
+                GENERAL STYLES
+************************************************/
+/* 1024px 470px screen size*/
+/*General Style */
 html {
   font-size: 18px;
   line-height: 1.4rem;
@@ -13,7 +15,10 @@ html {
   margin: auto;
 }
 
-/* Header Styles */
+/************************************************
+                HEADER STYLES
+************************************************/
+/*Header Styles*/
 header {
   background-image: url(../images/glasses-bg.png);
   background-repeat: no-repeat;
@@ -23,7 +28,7 @@ header {
   padding-top: 1rem;
 }
 
-/* Navigation Bar Styles */
+/*Navigation Bar Styles*/
 header div {
   display: flex;
   align-items: center;
@@ -56,7 +61,7 @@ nav span {
   height: 1.5rem;
 }
 
-/* Main Banner Styles */
+/*Banner Styles*/
 #banner {
   justify-content: flex-end;
 }
@@ -74,6 +79,7 @@ h1 {
   font-weight: bold;
 }
 
+/*Header Styles for Tablet*/
 @media only screen and (max-width: 1024px) {
   header {
     height: 22rem;
@@ -99,6 +105,7 @@ h1 {
   }
 }
 
+/*Header Styles for Mobile*/
 @media only screen and (max-width: 470px) {
   header {
     background-position: 20%;
@@ -126,7 +133,13 @@ h1 {
   }
 }
 
-/* Services Styles */
+/************************************************
+                CONTENT STYLES
+************************************************/
+/************************************************
+                Services Styles
+************************************************/
+/*Services Styles*/
 .content {
   display: flex;
   justify-content: center;
@@ -156,6 +169,7 @@ h1 {
   width: 3.5rem;
 }
 
+/*Content Styles for Mobile*/
 @media only screen and (max-width: 470px) {
   .content {
     flex-direction: column;
@@ -175,7 +189,10 @@ h1 {
   }
 }
 
-/* Information Styles */
+/************************************************
+                Information Styles
+************************************************/
+/*Information Styles*/
 .info {
   width: 35%;
   margin-right: 5%;
@@ -194,6 +211,7 @@ h1 {
   color: white;
 }
 
+/*Information Styles for Mobile*/
 @media only screen and (max-width: 470px) {
   .info {
     width: 100%;
@@ -211,7 +229,10 @@ h1 {
   }
 }
 
-/* Footer Styles*/
+/************************************************
+                FOOTER STYLES
+************************************************/
+/*Footer Styles*/
 footer {
   background-color: azure;
 }
@@ -228,6 +249,7 @@ footer .logo {
   height: 1.5rem;
 }
 
+/*Footer Styles for Mobile*/
 @media only screen and (max-width: 470px) {
   footer {
     justify-content: center;
