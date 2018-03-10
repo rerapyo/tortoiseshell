@@ -37,6 +37,10 @@ nav span {
   padding: 1rem;
 }
 
+.mobile {
+  display: none;
+}
+
 .bar {
   display: flex;
   align-items: center;
@@ -44,7 +48,6 @@ nav span {
   color: white;
   justify-content: space-between;
   margin-top: 1rem;
-  padding: 1rem 0;
 }
 
 .logo {
@@ -93,6 +96,20 @@ h1 {
 
   .banner h1 {
     font-size: 1.33rem;
+  }
+}
+
+@media only screen and (max-width: 470px) {
+  header {
+    background-position: 20%;
+  }
+  
+  .menu {
+    display: none;
+  }
+
+  .mobile {
+    display: block;
   }
 }
 
